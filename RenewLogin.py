@@ -25,7 +25,7 @@ class RenewLogin:
         print("inside constructor\n")
 
     def set_browser(self):
-        self.browser=webdriver.Chrome("C:\\Users\\Sadman\\Downloads\\Compressed\\chromedriver.exe")
+        self.browser=webdriver.Firefox()
         self.key_actions=webdriver.ActionChains(self.browser)
         print("inside setBrowser\n")
 
